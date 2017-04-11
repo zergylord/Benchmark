@@ -17,6 +17,6 @@ print(time.clock()-cur_time)
 cur_time = time.clock()
 for i in range(steps):
     A = np.random.rand(row_dim,col_dim)
-    for j in range(depth)
+    for j in range(depth):
         A = np.matmul(A,A)
 print(time.clock()-cur_time)
